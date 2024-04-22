@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHrm_Application_Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OhrmApllicationtesting(failed)">
+    <classes>
+      <class name="com.OrangeHrmTestCases.Tc_LoginDDT">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginDDT" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.OrangeHrmTestCases.Tc_LoginDDT -->
+    </classes>
+  </test> <!-- OhrmApllicationtesting(failed) -->
+</suite> <!-- Failed suite [OrangeHrm_Application_Testing] -->

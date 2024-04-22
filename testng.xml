@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHrm_Application_Testing" >
+  <test thread-count="5" name="OhrmApllicationtesting">
+    <classes>
+     
+          <class name="com.OrangeHrmTestCases.Tc_001OrangeHrm_LoginPageTestCase"/> 
+          <class name="com.OrangeHrmTestCases.Tc2_homePageTest"/>
+         <!--  <class name="com.OrangeHrmTestCases.Tc3_pimPageTest"/> 
+          <class name="com.OrangeHrmTestCases.Tc4_employeeList"/>  
+          <class name="com.OrangeHrmTestCases.Tc_LoginDDT"/> --> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

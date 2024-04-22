@@ -1,0 +1,2 @@
+cd C:\Users\yasan\eclipse-workspace\OrangeHrm
+mvn clean install
